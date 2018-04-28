@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+import time
 launch = ""
 
 print("Super Nova mission setup")
@@ -20,4 +20,12 @@ print("launchTime is " + launchTime)
 print("missionName is " + missionName)
 print("payload is " + payload)
 print("launchSite is " + launchSite    )
-
+print("3")
+time.sleep(1)
+print("2")
+time.sleep(1)
+print("1")
+time.sleep(1)
+print("liftoff")
+time.sleep(10)
+print("reached "+ desination )
