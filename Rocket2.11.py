@@ -1,14 +1,12 @@
 import time
 import random
-from PIL import Image 
 launch = ""
 x = random.randint(1,100)
 
 
   
-im = Image.open(r"home/mason/Downloads/Rocket.jpg")  
   
-im.show() 
+
 
 Rocketname = input("what is the Rocket called: ")
 
