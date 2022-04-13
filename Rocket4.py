@@ -3,12 +3,12 @@ import random
 launch = ""
 x = random.randint(1,100)
 print("Super Nova mission setup")
-destination = raw_input("what is the destination: ")
-launchTime = raw_input("what is the launch time: ")
-missionName = raw_input("what is the mission name: ")
-payload = raw_input("what is the payload: ")
-launchSite = raw_input("what is the launch site: ")
-payloaddestination = raw_input("what is the payload destination: ")
+destination = input("what is the destination: ")
+launchTime = input("what is the launch time: ")
+missionName = input("what is the mission name: ")
+payload = input("what is the payload: ")
+launchSite = input("what is the launch site: ")
+payloaddestination = input("what is the payload destination: ")
 
 while not launch == 'y':
   launch = raw_input("ready for launch? (y/n) ")
