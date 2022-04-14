@@ -1,23 +1,27 @@
 import time
 import random
-launch = ""
-x = random.randint(1,100)
-print("Super Nova mission setup")
-destination = input("what is the destination: ")
-launchTime = input("what is the launch time: ")
-missionName = input("what is the mission name: ")
-payload = input("what is the payload: ")
-launchSite = input("what is the launch site: ")
-payloaddestination = input("what is the payload destination: ")
 
+from colored import *
+launch = ""
+color = fg('chartreuse_1')
+color1 = fg('red_3a')
+res = attr('reset')
+x = random.randint(1,10)
+print(color+"Super Nova mission setup")
+destination = input(color+"what is the destination: ")
+launchTime = input(color+"what is the launch time: ")
+missionName = input(color+"what is the mission name: ")
+payload = input(color+"what is the payload: ")
+launchSite = input(color+"what is the launch site: ")
+payloaddestination = input(color+"what is the payload destination: ")
 while not launch == 'y':
-  launch = raw_input("ready for launch? (y/n) ")
+  launch = input(color+"ready for launch? (y/n) ")
   time.sleep(2.5)
 
 
-print("Starting Super Nova " + missionName +" launch sequence ")
-if x <= 10:
-  print("Rocket exploded")
+print(color+"Starting Super Nova " + missionName +" launch sequence ")
+if x == 1:
+  print(color1+"Rocket exploded")
 else:
   print("destination is " + destination )
   print("launchTime is " + launchTime)
